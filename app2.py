@@ -550,9 +550,9 @@ def render_sidebar():
         with st.expander("🆘 Quick Help"):
             st.markdown("""
             **Need Help?**
-            - [API Key Guide](https://docs.skillsync.ai)
-            - [Example CVs](https://github.com/skillsync/examples)
-            - [Report Issues](https://github.com/skillsync/issues)
+            - [Groq API Key Guide](https://console.groq.com/docs/quickstart)
+            - [Example CVs](https://www.my-resume-templates.com/)
+            - [Contact me](mailto:oyeniranmatthew@gmail.com)
             
             **Tips:**
             1. Use clear, detailed job descriptions
@@ -1346,13 +1346,13 @@ def render_about_page():
     st.markdown("""
     ### 📞 Contact & Support
     
-    - **GitHub**: [github.com/skillsync-ai](https://github.com/skillsync-ai)
-    - **Documentation**: [docs.skillsync.ai](https://docs.skillsync.ai)
-    - **Issues**: [github.com/skillsync-ai/issues](https://github.com/skillsync-ai/issues)
+    - **GitHub**: [github.com/skillsync-ai](https://github.com/Oyeniran20/skillsync-ai/)
+    - **Documentation**: [docs.skillsync.ai](https://github.com/Oyeniran20/skillsync-ai/blob/main/README.md)
+    - **Issues**: [github.com/skillsync-ai/issues](https://github.com/Oyeniran20/skillsync-ai/issues)
     
     ---
     
-    **Version**: 2.0.0 | **Last Updated**: December 2024 | **License**: MIT
+    **Version**: 2.0.0 | **Last Updated**: December 2025 | **License**: MIT
     """)
 
 # ==================== MAIN APPLICATION ====================
