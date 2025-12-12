@@ -476,9 +476,18 @@ def render_sidebar():
         # API Configuration
         st.subheader("🔑 API Configuration")
         
-        # Load from secrets first
-        GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", "")
-        SERPER_API_KEY = st.secrets.get("SERPER_API_KEY", "")
+        # Load from secrets first - WITH ERROR HANDLING
+        GROQ_API_KEY = ""
+        SERPER_API_KEY = ""
+        
+        try:
+            # Try to get from Streamlit secrets
+            GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", "")
+            SERPER_API_KEY = st.secrets.get("SERPER_API_KEY", "")
+        except (AttributeError, FileNotFoundError, KeyError):
+            # If secrets file doesn't exist or can't be read
+            GROQ_API_KEY = ""
+            SERPER_API_KEY = ""
         
         # Environment variables fallback
         if not GROQ_API_KEY:
