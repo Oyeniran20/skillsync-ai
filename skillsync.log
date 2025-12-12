@@ -1,0 +1,16 @@
+2025-12-09 21:33:42,507 - __main__ - INFO - Created directory: temp
+2025-12-09 21:33:42,509 - __main__ - INFO - Created directory: exports
+2025-12-09 21:33:42,510 - __main__ - INFO - Created directory: logs
+2025-12-09 21:33:43,038 - __main__ - INFO - Loaded API keys from Streamlit Secrets
+2025-12-09 21:34:36,253 - __main__ - INFO - Loaded API keys from Streamlit Secrets
+2025-12-09 21:35:14,443 - __main__ - INFO - Loaded API keys from Streamlit Secrets
+2025-12-09 21:35:43,999 - __main__ - INFO - Loaded API keys from Streamlit Secrets
+2025-12-09 21:35:44,904 - __main__ - ERROR - Analysis failed for Matthew Oyeniran CV.pdf: 
+2025-12-09 21:35:44,906 - __main__ - ERROR - Analysis failed for Oyeniran Matthew Idowu CV.pdf: 
+2025-12-09 21:35:44,906 - __main__ - ERROR - Analysis failed for Oyeniran Matthew. I. CV.pdf: 
+2025-12-09 21:35:45,975 - __main__ - INFO - Loaded API keys from Streamlit Secrets
+2025-12-09 21:35:59,606 - __main__ - INFO - Loaded API keys from Streamlit Secrets
+2025-12-09 21:36:00,305 - __main__ - ERROR - Analysis failed for Matthew Oyeniran CV.pdf: 
+2025-12-09 21:36:00,307 - __main__ - ERROR - Analysis failed for Oyeniran Matthew Idowu CV.pdf: 
+2025-12-09 21:36:00,308 - __main__ - ERROR - Analysis failed for Oyeniran Matthew. I. CV.pdf: 
+2025-12-09 21:36:01,391 - __main__ - INFO - Loaded API keys from Streamlit Secrets
