@@ -3,3 +3,6 @@ pymupdf
 groq
 pandas
 python-dotenv==1.0.1
+matplotlib
+python-docx
+tomli==2.0.0
